@@ -32,7 +32,7 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 500px;
-  opacity: 0; /* For fade-in animation */
+  opacity: 0;
   animation: fadeIn 1s forwards;
 }
 
@@ -75,10 +75,6 @@ header p {
   text-shadow: 0 1px 2px rgba(0,0,0,0.2);
 }
 
-.contact p {
-  margin: 0;
-}
-
 .contact a {
   color: #F0F0F0;
   font-weight: 600;
@@ -92,7 +88,6 @@ header p {
   outline: none;
 }
 
-/* Theme Toggle Button */
 #theme-toggle {
   background-color: transparent;
   border: 2px solid #f9f9f9;
